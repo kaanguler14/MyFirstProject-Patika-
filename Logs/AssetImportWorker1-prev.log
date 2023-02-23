@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProjects/Essentials 3D project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58387
+Successfully changed project path to: D:/UnityProjects/Essentials 3D project
+D:/UnityProjects/Essentials 3D project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3088] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 1687194855 [EditorId] 1687194855 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3088] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 1687194855 [EditorId] 1687194855 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 74.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Essentials 3D project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008483 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Essentials 3D project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Essentials 3D project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (113.4 KB). Loaded Objects now: 3529.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 2.680600 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.181500 ms MarkObjects: 2.179400 ms  DeleteObjects: 0.086800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168355.392589 seconds.
+  path: Assets/BrickMaterial.mat
+  artifactKey: Guid(050155c7cbe64ec4591a9cc2b8d3130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BrickMaterial.mat using Guid(050155c7cbe64ec4591a9cc2b8d3130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f86f204d7bb370a7ab4c094947eb22f9') in 0.142580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Arrow.prefab
+  artifactKey: Guid(e33e7c8790ed847a388be66c76d309c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Arrow.prefab using Guid(e33e7c8790ed847a388be66c76d309c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46f5eb28b93b781d3e4b910b680d34a8') in 0.027575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Platform Small.prefab
+  artifactKey: Guid(b600bf17217144f2b924a81468fdc734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Platform Small.prefab using Guid(b600bf17217144f2b924a81468fdc734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3ed1ce743e0d723294534d2f2e5f141') in 0.013808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes/Cartoon Up.png
+  artifactKey: Guid(a27a7bfbc21a1401ea796975a633adc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes/Cartoon Up.png using Guid(a27a7bfbc21a1401ea796975a633adc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd176f1decb95b2ef45566ea1f3841f5a') in 0.065813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Minifigs/Field Athlete.prefab
+  artifactKey: Guid(2c6e863d16e12421eadb0b312add8fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Minifigs/Field Athlete.prefab using Guid(2c6e863d16e12421eadb0b312add8fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ae0188e02c626f7b4f3395898528312') in 0.044992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Blue.prefab
+  artifactKey: Guid(d8e68d8943e1c434eaae54253dba1fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Blue.prefab using Guid(d8e68d8943e1c434eaae54253dba1fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cc583e378de9fe275353d464fb32d6b') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Herringbone_Brick_baseColor.mat
+  artifactKey: Guid(79798541814f54e4bb7afa7dff8e6370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Herringbone_Brick_baseColor.mat using Guid(79798541814f54e4bb7afa7dff8e6370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57b15d4f9a8f88a2f720689e1f7cefad') in 0.011045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Bridge Short.prefab
+  artifactKey: Guid(33521425a09f048cb8c40482b68f6d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Bridge Short.prefab using Guid(33521425a09f048cb8c40482b68f6d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1580bc7fcfa19664a73ca6b221fbd4b6') in 0.086757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tree_Textures/Materials/translucency_gloss.mat
+  artifactKey: Guid(55d4f90a04076b94f8067823fafab61f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/Materials/translucency_gloss.mat using Guid(55d4f90a04076b94f8067823fafab61f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e32931629bce5ac6bd236d50e119bab') in 0.007917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Audio
+  artifactKey: Guid(0bef20e02a9924b06b40578bffd6a9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Audio using Guid(0bef20e02a9924b06b40578bffd6a9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c0d2290aef844134876df60579d9437') in 0.004365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs
+  artifactKey: Guid(28a881c312f854aed9ecc30435b28f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs using Guid(28a881c312f854aed9ecc30435b28f14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fc1cd58b1df92386c0c8035fa5d99c0') in 0.005251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes
+  artifactKey: Guid(2ecf75480c25a45e5beca07d36a2b097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes using Guid(2ecf75480c25a45e5beca07d36a2b097) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59502fd5004ef7fc38f7697ab5cf9bfc') in 0.004128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Materials/Skyboxes/Cartoon.mat
+  artifactKey: Guid(52ba0921ed9414e909183e935ab0415a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Materials/Skyboxes/Cartoon.mat using Guid(52ba0921ed9414e909183e935ab0415a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed15f28fc521db130d39df36b92a0233') in 0.068617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Green.prefab
+  artifactKey: Guid(94964c395826f415692171f61b6231a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Green.prefab using Guid(94964c395826f415692171f61b6231a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae4623dc22b11d362b9e7c7681111155') in 0.016100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Player Red.png
+  artifactKey: Guid(a827895b0da5345579de85b534040663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Player Red.png using Guid(a827895b0da5345579de85b534040663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e598feeda7998f5284603657fecb90e8') in 0.022515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tree_Textures/New Material.mat
+  artifactKey: Guid(7878420beee90444483db88897203237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/New Material.mat using Guid(7878420beee90444483db88897203237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '569310eb9958fcb9272092d4a8b628b8') in 0.011754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models
+  artifactKey: Guid(d80ba7fff6af3415ab664edd6625e59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models using Guid(d80ba7fff6af3415ab664edd6625e59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48a32a5e479d75b56c9764772ce6f72e') in 0.004031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Audio/LEGO Behaviour Bricks
+  artifactKey: Guid(6019ffd641ae84f379281e62fb5dcbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Audio/LEGO Behaviour Bricks using Guid(6019ffd641ae84f379281e62fb5dcbb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ccc2797fe2030d6fd0c3084de2d26d') in 0.004197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Field Athlete Face Lose.png
+  artifactKey: Guid(0f4e50bfbdd4e48e9980cc350fbcfd2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Field Athlete Face Lose.png using Guid(0f4e50bfbdd4e48e9980cc350fbcfd2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cfa2fae46a4f251bf55de3d3d98d804') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Materials/Skyboxes
+  artifactKey: Guid(a028c8bb453db40b1982f5de72fcba03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Materials/Skyboxes using Guid(a028c8bb453db40b1982f5de72fcba03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3334feb121e2f562b50d27b43a1eb635') in 0.004469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Bridge Half.prefab
+  artifactKey: Guid(99d8b1afc651b4f339719c8c48d59534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Bridge Half.prefab using Guid(99d8b1afc651b4f339719c8c48d59534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43594577c626b4ce00e33ebb75e2f57d') in 0.078923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes/Cartoon Down.png
+  artifactKey: Guid(9eefe60b0b64d4b17a05ce643fb89fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Skyboxes/Cartoon Down.png using Guid(9eefe60b0b64d4b17a05ce643fb89fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afc095b398e1a7145130e883b30c7f8e') in 0.012475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tree_Textures/New Material 1.mat
+  artifactKey: Guid(69371c5c3fb4da9448c5a1c5f2d58646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/New Material 1.mat using Guid(69371c5c3fb4da9448c5a1c5f2d58646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '357fe37c32faa16b9a005d1c658d1e47') in 0.007500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Arrow.png
+  artifactKey: Guid(ca535c51a3ff54b42ba04cccd84a4496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Arrow.png using Guid(ca535c51a3ff54b42ba04cccd84a4496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2818c6c77029f7b699c83f20ccce435') in 0.017835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Materials/Particles/Star.mat
+  artifactKey: Guid(e8c2892a8bb244b0cb3e6f1de1a52c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Materials/Particles/Star.mat using Guid(e8c2892a8bb244b0cb3e6f1de1a52c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a04689eb42b2ebea77bbd33e3753ae86') in 0.005665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles
+  artifactKey: Guid(a1ba5d81cf04547dcacf67d801226feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles using Guid(a1ba5d81cf04547dcacf67d801226feb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2a4617a506d32e3f69392771407f8de') in 0.003839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Audio/LEGO Behaviour Bricks/Lose - Failure.ogg
+  artifactKey: Guid(df37b6ab0480244bda56a575d2c2a1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Audio/LEGO Behaviour Bricks/Lose - Failure.ogg using Guid(df37b6ab0480244bda56a575d2c2a1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6baa97468d398bc85f5f568f746a7dba') in 0.037729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone
+  artifactKey: Guid(db4e79b6e4f384bf7b441aa2b6d2ced7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone using Guid(db4e79b6e4f384bf7b441aa2b6d2ced7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53de91231c808126efd952748b456d56') in 0.003262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Particles/Star.png
+  artifactKey: Guid(19ff60bbf2ad244f390d229a37bd078d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Particles/Star.png using Guid(19ff60bbf2ad244f390d229a37bd078d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd792807f3d191086ae315f9595ae8eba') in 0.015047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Particles
+  artifactKey: Guid(462a649ff5db84a59a5dbb8d68d135f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Particles using Guid(462a649ff5db84a59a5dbb8d68d135f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b51f5efa3657b8fe8d8a6a464cee688a') in 0.014763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b160938d0b1b8d8469c212100d151a49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials using Guid(b160938d0b1b8d8469c212100d151a49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c684a46f3e8c80cda2ea4b0c1c6bee4') in 0.004365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31d3c2a01cd9ddb244a9ae059af97526') in 0.005270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Arrow Bent.prefab
+  artifactKey: Guid(8141e9c5a408d46ab8fb7f50fdcf94af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Arrow Bent.prefab using Guid(8141e9c5a408d46ab8fb7f50fdcf94af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '002230ff891bbe735c1b53d7fe7cdcb9') in 0.026160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Star.png
+  artifactKey: Guid(62511348d6f514b6bb441488802c84fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Textures/Stickers/Star.png using Guid(62511348d6f514b6bb441488802c84fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18cd159ef765237b52d4501dd9170595') in 0.017766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Red.prefab
+  artifactKey: Guid(66c469501189e4cdbaf0ea17e9974978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Characters/Player Red.prefab using Guid(66c469501189e4cdbaf0ea17e9974978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '943f345e35e0423e3c5a776bd1c20bc9') in 0.013639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Ring.prefab
+  artifactKey: Guid(4817cf4df44a34fd389ab835829bc7ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Prefabs/LEGO Models/Obstacles/Ring.prefab using Guid(4817cf4df44a34fd389ab835829bc7ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64f047a94561ebcbf283fdf5cfae79b0') in 0.092461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tree_Textures/Cube (14).prefab
+  artifactKey: Guid(231719fae62a2214f9dc10dff7f7617d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/Cube (14).prefab using Guid(231719fae62a2214f9dc10dff7f7617d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca05a595dbd2d62e2fead33efd922f1b') in 0.010605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tree_Textures/Materials/normal_specular.mat
+  artifactKey: Guid(a8758d2b6fc872047ae7b2136eedb04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/Materials/normal_specular.mat using Guid(a8758d2b6fc872047ae7b2136eedb04e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d3a7d13b23f48dd53bffb300708dcd6') in 0.009047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Scenes/Danger Zone Settings.lighting
+  artifactKey: Guid(8efd93add75244d88836bcace62264a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Scenes/Danger Zone Settings.lighting using Guid(8efd93add75244d88836bcace62264a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc5a5790060b9f4ddf19e1328b3617ba') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AddOns/MgLEGO Danger Zone/Materials/Particles/Star Trail.mat
+  artifactKey: Guid(21a51afabcbeb4a419ecf635302277b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/AddOns/MgLEGO Danger Zone/Materials/Particles/Star Trail.mat using Guid(21a51afabcbeb4a419ecf635302277b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f82f181f8326bba3b19515cca806c428') in 0.005610 seconds 
